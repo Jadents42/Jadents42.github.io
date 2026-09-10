@@ -13,10 +13,10 @@ title                    : "Jaden Solorzano Portfolio"
 title_separator          : "-"
 name                     : &name "Jaden Solorzano"
 description              : &description "Robotics and mechatronics portfolio on manipulation, motion control, embedded systems"
-url                      : https://jadensolorzano.github.io
+url                      : https://jadents42.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jadensolorzano/jadensolorzano.github.io"
+repository               : "Jadents42/Jadents42.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
