@@ -9,56 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
+Download my full resume [here](/files/resume.pdf).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Mechatronics Engineering Technology, Texas A&M University, expected December 2026
+  * Minor in Embedded Systems
+  * Greater Texas Foundation Aggie Scholar
+  * GPA: 3.3
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* July 2026 -- Present: Research Technician, Center for Infrastructure Renewal, Texas A&M
+  * PI: Dr. Chenglin Wu
+  * Brought an autonomous pipeline leak detection system online on a dual-arm mobile manipulator
+  * Full coordinated control of both 6-DOF arms, grippers, and mobile base
+  * Designing a custom 4-inch pipe inspection crawler
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2026 -- Present: Undergraduate Researcher, Controls and Mechatronics Research Lab, Texas A&M
+  * PI: Dr. Xingyong Song
+  * Rebuilt a modular package delivery mechanism for an autonomous vehicle platform
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* January 2026 -- Present: Sensors Lead, NASA VITAL Capstone Project
+  * $1.2M NASA-funded coastal monitoring platform
+  * Sensor selection, PCB design in KiCad, STM32 firmware
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Robotics & Controls: ROS1/ROS2, Gazebo, RViz, SLAM, motion planning, forward/inverse kinematics, YOLOv8, OpenCV
+* Design & Fabrication: Fusion 360, SolidWorks, KiCad, PCB layout, 3D printing
+* Embedded: STM32, ESP32, Raspberry Pi, FreeRTOS, bare metal, I2C, SPI, UART, ADC, PWM
+* Programming: Python, C, C++, Assembly
 
-Publications
+Projects
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+See my [portfolio](/portfolio/) for full project write-ups, including a 3-DOF robotic arm built from scratch with a hand-derived kinematics solver.
